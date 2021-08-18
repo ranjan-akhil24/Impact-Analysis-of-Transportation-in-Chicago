@@ -1,5 +1,5 @@
 # Impact-Analysis-of-Transportation-in-Chicago
-# Scripts:
+## Scripts:
 
 Taxi Data Set_2018
 Taxi Data Set_2019
@@ -16,11 +16,11 @@ scooter_project_L_Ridership.sql
 scooter_project_Scooter_Ridership.sql
 scooter_project_Taxi_Ridership.sql
 
-# Tableau:
+## Tableau:
 E-Scooter.twbx
 Divvy-Ridership.twbx
 
-# Steps:  
+## Steps:  
 Execute the following code files:
 
 Taxi Data Set 2018: It collects the data of Taxi Data Set 2018 from the API of City of Chicago(https://data.cityofchicago.org). Store it as a dataframe in Python. Calculate the number of rows and columns. Obtain the information of the dataframe using “.info()”. Using “isnull().sum()”, we calculate the number of null values in each column. Then we calculate the total and percentage of missing values. Then we drop the NA values using “dropna()”. We finally drop the unnecessary columns from the data frame.
